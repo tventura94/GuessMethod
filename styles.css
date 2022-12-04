@@ -127,6 +127,12 @@ nav ul {
   right: auto;
 }
 
+.nav-buttons {
+  width: 10rem;
+  display: flex;
+  margin-left: auto;
+}
+
 #link-item1 {
   color: #800a32;
 }
