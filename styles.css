@@ -100,6 +100,7 @@ nav ul {
   width: 200px;
   display: inline-block;
   border-bottom: #b75f7c 5px;
+  opacity: 0.8;
 }
 
 .open-game {
@@ -331,6 +332,7 @@ nav ul {
     width: 160px;
     margin-left: 1rem;
   }
+
   a {
     font-size: 22.5px;
     text-align: center;
@@ -358,11 +360,6 @@ main {
   margin-top: 1rem;
   grid-column: 2 / 3;
 }
-span {
-  text-decoration: solid;
-  color: rgb(64, 215, 253);
-  text-decoration: underline;
-}
 .about-paragraph {
   font-family: "Prompt", "Times New Roman", Times, serif;
   letter-spacing: 0.5px;
@@ -373,7 +370,8 @@ span {
   font-family: "Alexandria";
   color: rgb(242, 215, 9);
 }
-.miles {
-  color: rgb(131, 195, 67);
-  text-decoration: none;
+.section1-img {
+  display: flex;
+  grid-column: 2 / 3;
+  width: 100%;
 }
