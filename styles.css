@@ -314,6 +314,10 @@ main {
   display: grid;
   grid-template-columns: minmax(1em, 1fr) minmax(0px, 500px) minmax(1em, 1fr);
   grid-column-gap: 2em;
+
+  background-image: url("livepic.jpeg");
+  background-repeat: none;
+  background-position: 40%;
 }
 .about-section {
   margin-top: 1rem;
@@ -321,10 +325,20 @@ main {
 }
 span {
   text-decoration: solid;
-  color: red;
+  color: rgb(64, 215, 253);
+  text-decoration: underline;
 }
 .about-paragraph {
+  font-family: "Prompt", "Times New Roman", Times, serif;
+  letter-spacing: 0.5px;
+  color: rgb(255, 255, 255);
 }
 
 .about-header {
+  font-family: "Alexandria";
+  color: rgb(242, 215, 9);
+}
+.miles {
+  color: rgb(131, 195, 67);
+  text-decoration: none;
 }
