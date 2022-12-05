@@ -27,7 +27,7 @@ a {
 header {
   display: flex;
   margin: 0 auto;
-  width: 95%;
+  width: 100vw;
   padding-top: 0.5em;
   background: rgb(255, 255, 255);
   background: radial-gradient(
