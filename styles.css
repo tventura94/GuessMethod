@@ -2,7 +2,8 @@
 
 * {
   letter-spacing: 1px;
-
+  /*REMOVES UGLY BACKGROUND CLICK EFFECT ON MOBILE 
+REMEMBER FOR FUTURE PROJECTS. CLUTCH */
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-tap-highlight-color: transparent;
 }
