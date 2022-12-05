@@ -25,6 +25,7 @@ a {
 /*******************************/
 
 header {
+  position: relative;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -41,7 +42,8 @@ header {
   -webkit-box-shadow: -200px -39px 400px -14px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -200px -39px 400px -14px rgba(0, 0, 0, 0.75);
   box-shadow: 0 10px 0px 0px #c1372a, 0 10px 0px 8px #d9b94b,
-    0 10px 0px 16px #20a4a3, 0 10px 5px 19px rgb(124, 124, 124);
+    0 10px 0px 16px #20a4a3, 0 10px 5px 19px rgb(92, 92, 92);
+  z-index: 1;
 }
 
 nav {
@@ -314,10 +316,9 @@ main {
   display: grid;
   grid-template-columns: minmax(1em, 1fr) minmax(0px, 500px) minmax(1em, 1fr);
   grid-column-gap: 2em;
-
-  background-image: url("livepic.jpeg");
-  background-repeat: none;
-  background-position: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .about-section {
   margin-top: 1rem;
