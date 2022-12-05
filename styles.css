@@ -62,6 +62,7 @@ nav {
   background: whitesmoke;
   background-image: url("fluid.gif");
   background-repeat: no-repeat;
+  background-size: cover;
   background-blend-mode: overlay;
   opacity: 0.98;
 
