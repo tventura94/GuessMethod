@@ -311,10 +311,20 @@ nav ul {
 ***********************************************/
 
 main {
-  width: 100vw;
+  display: grid;
+  grid-template-columns: minmax(1em, 1fr) minmax(0px, 500px) minmax(1em, 1fr);
+  grid-column-gap: 2em;
 }
 .about-section {
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 150px, 150px, 150px;
+  margin-top: 1rem;
+  grid-column: 2 / 3;
+}
+span {
+  text-decoration: solid;
+  color: red;
+}
+.about-paragraph {
+}
+
+.about-header {
 }
