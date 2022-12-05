@@ -85,7 +85,7 @@ nav ul {
 .open-game {
   font-family: "FontAwesome";
   margin: 0;
-  margin-left: 25vw;
+  margin-left: auto;
   border: 0;
   padding-top: 10px;
   background: 0;
