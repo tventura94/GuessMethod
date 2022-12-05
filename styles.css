@@ -63,6 +63,7 @@ nav {
   background-image: url("fluid.gif"), url("neon.gif");
   background-repeat: no-repeat, no-repeat;
   background-size: cover, cover;
+  background-position: initial, left;
   background-blend-mode: overlay, screen;
   opacity: 0.98;
 
@@ -73,7 +74,7 @@ nav {
   left: 150%; /* CHANGE TO 100% TO SEE PAGE */
   transform: translateX(0);
   transition: transform 500ms;
-  box-shadow: 0 0px 50px 1px rgb(103, 103, 103);
+  box-shadow: 0 0px 50px 1px rgb(93, 93, 93);
   border-radius: 30px;
 }
 
