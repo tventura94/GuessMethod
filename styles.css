@@ -129,7 +129,7 @@ nav ul {
 }
 
 .nav-buttons {
-  margin-left: auto;
+  display: flex;
 }
 
 #link-item1 {
