@@ -35,6 +35,7 @@ header {
   margin: 0 auto;
   width: 100vw;
   padding-top: 0.5em;
+
   background: whitesmoke;
   background-image: url("fluid.gif"), url("neon.gif");
   background-repeat: no-repeat, no-repeat;
@@ -98,6 +99,7 @@ nav ul {
   /* set the width to px*/
   width: 200px;
   display: inline-block;
+  border-bottom: #b75f7c 5px;
 }
 
 .open-game {
@@ -351,7 +353,6 @@ main {
   background-position: center;
   background-size: cover;
   height: 100vh;
-  border: red 1px solid;
 }
 .about-section {
   margin-top: 1rem;
