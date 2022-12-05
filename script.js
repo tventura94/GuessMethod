@@ -2,7 +2,8 @@ const closeButton = document.querySelector(".close-nav");
 const openButton = document.querySelector(".open-nav");
 const nav = document.querySelector(".nav");
 const ul = document.querySelector(".ul");
-
+const main = document.querySelector(".jsBody");
+//BUTTON FUNCTIONALITY
 openButton.addEventListener("click", () => {
   nav.classList.add("navigation-open");
   closeButton.classList.add("rotate");
@@ -14,3 +15,10 @@ closeButton.addEventListener("click", () => {
   closeButton.classList.remove("rotate");
   ul.classList.remove("fadeIn");
 });
+
+main.addEventListener("click", () => {
+  nav.classList.remove("navigation-open");
+  closeButton.classList.remove("rotate");
+  ul.classList.remove("fadeIn");
+});
+///////////////////////////////////////////////
