@@ -35,13 +35,13 @@ header {
   margin: 0 auto;
   width: 100vw;
   padding-top: 0.5em;
-  background: rgb(255, 255, 255);
-  background: radial-gradient(
-    circle,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(193, 193, 193, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  background: whitesmoke;
+  background-image: url("fluid.gif"), url("neon.gif");
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+  background-position: initial, left;
+  background-blend-mode: overlay, screen;
+  opacity: 0.98;
   box-shadow: -200px -39px 400px -14px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: -200px -39px 400px -14px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -200px -39px 400px -14px rgba(0, 0, 0, 0.75);
@@ -146,19 +146,19 @@ nav ul {
 }
 
 #link-item1 {
-  color: #c1372a;
+  color: #800a32;
   opacity: 0.7;
 }
 #link-item2 {
-  color: #c1372a;
+  color: #800a32;
   opacity: 0.7;
 }
 #link-item3 {
-  color: #c1372a;
+  color: #800a32;
   opacity: 0.7;
 }
 #link-item4 {
-  color: #c1372a;
+  color: #800a32;
   opacity: 0.7;
 }
 
