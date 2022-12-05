@@ -93,6 +93,9 @@ nav ul {
   cursor: pointer;
   font-size: 2.5em;
   transition: ease-in 180ms;
+
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 }
 
 .open-game:hover {
@@ -126,6 +129,9 @@ nav ul {
   font-size: 4em;
   position: absolute;
   right: auto;
+
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 }
 
 #link-item1 {
