@@ -60,11 +60,10 @@ nav {
 .nav {
   position: fixed;
   background: whitesmoke;
-  background-image: url("dog.gif");
+  background-image: url("fluid.gif");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  opacity: 0.9;
+  background-blend-mode: overlay;
+  opacity: 0.98;
 
   width: 100%;
   top: 0;
@@ -73,7 +72,7 @@ nav {
   left: 150%; /* CHANGE TO 100% TO SEE PAGE */
   transform: translateX(0);
   transition: transform 500ms;
-  box-shadow: 0 0px 100px 1px rgb(98, 98, 98);
+  box-shadow: 0 0px 100px 1px rgb(225, 101, 101);
   border-radius: 30px;
 }
 
@@ -145,16 +144,16 @@ nav ul {
 }
 
 #link-item1 {
-  color: whitesmoke;
+  color: #800a32;
 }
 #link-item2 {
-  color: whitesmoke;
+  color: #20a4a3;
 }
 #link-item3 {
-  color: whitesmoke;
+  color: #c1372a;
 }
 #link-item4 {
-  color: whitesmoke;
+  color: #d9b94b;
 }
 
 .rotate {
