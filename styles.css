@@ -351,7 +351,6 @@ main {
   display: grid;
   grid-template-columns: minmax(1em, 1fr) minmax(0px, 500px) minmax(1em, 1fr);
   grid-column-gap: 2em;
-  height: 100vh;
   background-color: gray;
   background-image: none;
 }
@@ -359,12 +358,7 @@ main {
   grid-column: 1 / 4;
   background: #800a32;
   opacity: 0.98;
-  height: 50vh;
   border: 1px solid red;
-}
-.middle {
-  background-color: gray;
-  height: 100vh;
 }
 
 .mySlides {
