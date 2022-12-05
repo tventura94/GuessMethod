@@ -60,6 +60,12 @@ nav {
 .nav {
   position: fixed;
   background: whitesmoke;
+  background-image: url("dog.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
+
   width: 100%;
   top: 0;
   right: 0;
@@ -139,16 +145,16 @@ nav ul {
 }
 
 #link-item1 {
-  color: #800a32;
+  color: whitesmoke;
 }
 #link-item2 {
-  color: #c1372a;
+  color: whitesmoke;
 }
 #link-item3 {
-  color: #00737e;
+  color: whitesmoke;
 }
 #link-item4 {
-  color: #dd8d06;
+  color: whitesmoke;
 }
 
 .rotate {
