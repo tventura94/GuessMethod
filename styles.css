@@ -130,6 +130,7 @@ nav ul {
 
 .nav-buttons {
   display: flex;
+  width: 90%;
 }
 
 #link-item1 {
