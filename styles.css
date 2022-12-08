@@ -404,7 +404,7 @@ main {
   align-items: center;
   justify-content: space-evenly;
   margin: 0 auto;
-  padding-top: 1.7rem;
+  padding-top: 0.5rem;
   padding-bottom: 0.2rem;
   width: 100vw;
   margin-top: 0.2rem;
@@ -424,7 +424,7 @@ main {
 .fa-spotify {
   border: 0;
   background: none;
-  font-size: 55px;
+  font-size: 45px;
   transition: ease 200ms;
 }
 
@@ -435,7 +435,7 @@ main {
 .fa-instagram {
   border: 0;
   background: none;
-  font-size: 55px;
+  font-size: 45px;
 
   transition: ease 200ms;
 }
@@ -447,7 +447,7 @@ main {
 .fa-facebook-f {
   border: 0;
   background: none;
-  font-size: 55px;
+  font-size: 45px;
 
   transition: ease 200ms;
 }
@@ -458,7 +458,7 @@ main {
 .fa-itunes {
   border: 0;
   background: none;
-  font-size: 60px;
+  font-size: 50px;
   transition: ease 200ms;
 }
 
