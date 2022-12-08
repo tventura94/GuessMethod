@@ -533,20 +533,21 @@ main {
   color: transparent;
 }
 
-.place-date:after {
-  content: "";
-  background: #800a32;
-  position: absolute;
-  height: 10vh;
-  left: 24vw;
-  width: 1px;
-}
 .place-date:before {
   content: "";
   background: #800a32;
   position: absolute;
   height: 10vh;
   right: 24vw;
+  width: 1px;
+}
+
+.place-date:after {
+  content: "";
+  background: #800a32;
+  position: absolute;
+  height: 10vh;
+  left: 24vw;
   width: 1px;
 }
 
