@@ -11,7 +11,13 @@ REMEMBER FOR FUTURE PROJECTS. CLUTCH,*/
 body {
   margin: 0;
   box-sizing: border-box;
-  background-color: silver;
+  background: rgb(249, 247, 248);
+  background: radial-gradient(
+    circle,
+    rgba(249, 247, 248, 1) 12%,
+    rgba(199, 199, 199, 1) 93%,
+    rgba(190, 186, 186, 1) 100%
+  );
 }
 li {
   list-style: none;
@@ -392,8 +398,7 @@ main {
 .socials {
   position: relative;
   grid-column: 1 / 4;
-  background: rgb(86, 86, 86);
-  opacity: 0.98;
+  background-color: transparent;
   text-align: center;
   z-index: 0;
   display: flex;
@@ -406,7 +411,7 @@ main {
 }
 
 .fa-spotify {
-  color: whitesmoke;
+  color: rgb(234, 126, 126);
   border: 0;
   background: none;
   font-size: 55px;
@@ -418,7 +423,7 @@ main {
 }
 
 .fa-instagram {
-  color: whitesmoke;
+  color: rgb(234, 126, 126);
   border: 0;
   background: none;
   font-size: 55px;
@@ -431,7 +436,7 @@ main {
 }
 
 .fa-facebook-f {
-  color: whitesmoke;
+  color: rgb(234, 126, 126);
   border: 0;
   background: none;
   font-size: 55px;
@@ -443,7 +448,7 @@ main {
 }
 
 .fa-itunes {
-  color: whitesmoke;
+  color: rgb(234, 126, 126);
   border: 0;
   background: none;
   font-size: 60px;
@@ -458,10 +463,12 @@ main {
 /******UPCOMING SHOWS***************/
 
 .upcoming-shows {
-  background-color: #026f79;
   margin: 0 auto;
   width: 100vw;
   display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: transparent;
 }
 
 .shows-header-box {
@@ -470,8 +477,18 @@ main {
 
 .shows-header-box h1 {
   font-family: "Prompt";
-  letter-spacing: 15px;
+  letter-spacing: 10px;
   text-decoration: underline;
-  color: whitesmoke;
-  font-size: 20px;
+  color: #af7470;
+  font-size: 25px;
+}
+.background-socials-dates {
+  width: 100vw;
+  background: rgb(249, 247, 248);
+  background-image: radial-gradient(
+    circle,
+    rgba(249, 247, 248, 1) 12%,
+    rgba(199, 199, 199, 1) 93%,
+    rgba(190, 186, 186, 1) 100%
+  );
 }
