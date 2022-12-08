@@ -538,7 +538,7 @@ main {
   background: #800a32;
   position: absolute;
   height: 10vh;
-  left: 20vw;
+  left: 24vw;
   width: 1px;
 }
 .place-date:before {
@@ -546,7 +546,7 @@ main {
   background: #800a32;
   position: absolute;
   height: 10vh;
-  right: 20vw;
+  right: 24vw;
   width: 1px;
 }
 
