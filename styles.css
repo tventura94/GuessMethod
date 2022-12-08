@@ -470,7 +470,7 @@ main {
 
 .upcoming-shows {
   margin: 0 auto;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -513,4 +513,37 @@ main {
   font-family: "Rubik", "Alexandria";
   font-style: italic;
   color: #aa5772;
+  width: 100%;
+}
+
+.place-date {
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  font-size: 20px;
+  background: rgb(128, 10, 50);
+  background: linear-gradient(
+    191deg,
+    rgba(128, 10, 50, 1) 23%,
+    rgba(196, 196, 196, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.place-date:after {
+  content: "";
+  background: #800a32;
+  position: absolute;
+  height: 10vh;
+  left: 20vw;
+  width: 1px;
+}
+.place-date:before {
+  content: "";
+  background: #800a32;
+  position: absolute;
+  height: 10vh;
+  right: 20vw;
+  width: 1px;
 }
