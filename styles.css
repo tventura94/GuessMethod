@@ -407,8 +407,8 @@ main {
   padding-top: 1.7rem;
   padding-bottom: 0.2rem;
   width: 100vw;
-  margin-top: 0.2rem;
-  margin-bottom: 2.3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   background-image: linear-gradient(
     191deg,
     rgba(185, 165, 174, 1) 43%,
@@ -470,10 +470,12 @@ main {
 
 .upcoming-shows {
   margin: 0 auto;
-  margin-top: 2.5rem;
+  margin-top: 1rem;
   width: 100vw;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   background-color: transparent;
 }
@@ -519,6 +521,8 @@ main {
 .place-date {
   margin: 0 auto;
   margin-top: 2rem;
+  border: 0;
+  padding: 0;
   font-size: 20px;
   background: rgb(128, 10, 50);
   background: linear-gradient(
@@ -548,6 +552,30 @@ main {
   width: 1px;
 }
 
+.venue {
+  padding: 0;
+  margin: 0rem;
+}
+
 .topborders {
   margin-top: 1rem;
+}
+
+/*****************************
+*****************************
+****** ACCOLADES **********/
+
+.accolades {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.ri-award {
+  font-size: 25px;
+  font-family: "Rubik";
+  color: #723939;
+  opacity: 0.5;
 }
