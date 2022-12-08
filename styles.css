@@ -470,6 +470,7 @@ main {
 
 .upcoming-shows {
   margin: 0 auto;
+  margin-top: 1rem;
   width: 100vw;
   display: flex;
   flex-direction: column;
