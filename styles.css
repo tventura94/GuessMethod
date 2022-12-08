@@ -418,6 +418,7 @@ main {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  opacity: 0.7;
 }
 
 .fa-spotify {
