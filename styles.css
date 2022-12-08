@@ -2,8 +2,8 @@
 
 * {
   letter-spacing: 1px;
-  /*REMOVES UGLY BACKGROUND CLICK EFFECT ON MOBILE 
-REMEMBER FOR FUTURE PROJECTS. CLUTCH */
+  /*REMOVES UGLY BACKGROUND CLICK EFFECT ON SAFARI MOBILE 
+REMEMBER FOR FUTURE PROJECTS. CLUTCH,*/
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-tap-highlight-color: transparent;
 }
@@ -39,6 +39,7 @@ header {
   margin: 0 auto;
   width: 100vw;
   padding-top: 0.5em;
+  padding-bottom: 0.5em;
 
   background: whitesmoke;
   background-image: url("fluid.gif"), url("neon.gif");
@@ -271,7 +272,7 @@ nav ul {
 
 /* Header and Nav */
 
-@media (min-width: 650px) {
+@media (min-width: 800px) {
   .open-nav,
   .close-nav {
     display: none;
@@ -291,6 +292,8 @@ nav ul {
     display: flex;
     margin: 0 auto;
     margin-top: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
     background: rgb(255, 255, 255);
     background: radial-gradient(
       circle,
@@ -324,8 +327,8 @@ nav ul {
   }
 }
 
-/******* SECTION - TOP OF PAGE *****************
-************************************************
+/************************************************
+***************** G R I D **********************
 ***********************************************/
 
 main {
@@ -335,34 +338,26 @@ main {
   background-color: gray;
   background-image: none;
 }
-.about-section {
+
+/************** IMAGE SLIDE SHOW*************
+***************************************/
+
+.imageGallery {
   grid-column: 1 / 4;
   background: #800a32;
   opacity: 0.98;
+  width: 100%;
 }
 
 .mySlides {
-  width: 100%;
-}
-.about-paragraph {
-  font-family: "Prompt", "Times New Roman", Times, serif;
-  letter-spacing: 0.5px;
-  color: rgb(255, 255, 255);
-}
-
-.about-header {
-  font-family: "Alexandria";
-  color: rgb(242, 215, 9);
 }
 .section1-img {
   display: flex;
+  grid-column: 1 / 4;
   width: 100%;
 }
 
-/************** SECTION 2 *************
-***************************************/
-
-.section2-border {
+.imageGallery-border {
   position: static;
   display: flex;
   grid-column: 1 / 4;
@@ -374,6 +369,25 @@ main {
     0 10px 0px 10px #c1372a, 0 10px 10px 13px rgb(124, 124, 124);
   z-index: 2;
 }
+
+/**********GRID MEDIA QUERIES**********/
+@media (min-width: 800px) {
+  main {
+    grid-template-columns: minmax(1em, 1fr) minmax(0px, 1500px) minmax(1em, 1fr);
+    max-width: 100%;
+    background-color: #800a32;
+  }
+
+  .imageGallery {
+    grid-column: 2 / 3;
+    object-fit: fill;
+  }
+  .section1-img {
+    width: 100%;
+  }
+}
+/******** SOCIAL ICON BAR ***********
+*************************************/
 
 .socials {
   position: relative;
@@ -439,4 +453,25 @@ main {
 
 .fa-itunes:hover {
   color: #800a32;
+}
+
+/******UPCOMING SHOWS***************/
+
+.upcoming-shows {
+  background-color: #026f79;
+  margin: 0 auto;
+  width: 100vw;
+  display: flex;
+}
+
+.shows-header-box {
+  margin: 0 auto;
+}
+
+.shows-header-box h1 {
+  font-family: "Prompt";
+  letter-spacing: 15px;
+  text-decoration: underline;
+  color: whitesmoke;
+  font-size: 20px;
 }
