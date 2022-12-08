@@ -469,7 +469,8 @@ main {
 .upcoming-shows {
   margin: 0 auto;
   margin-top: 1rem;
-  width: 100vw;
+  margin-bottom: 1rem;
+  width: 50vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -489,6 +490,8 @@ main {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  border-bottom: #800a32 3px;
+  border-style: dotted;
 }
 
 .shows-header-box h1 {
@@ -518,7 +521,7 @@ main {
 
 .place-date {
   margin: 0 auto;
-  margin-top: 4rem;
+  margin-top: 2.5rem;
   border: 0;
   padding: 0;
   font-size: 20px;
@@ -533,31 +536,13 @@ main {
   color: transparent;
 }
 
-.place-date:before {
-  content: "";
-  background: #800a32;
-  position: absolute;
-  height: 10vh;
-  right: 24vw;
-  width: 1px;
-}
-
-.place-date:after {
-  content: "";
-  background: #800a32;
-  position: absolute;
-  height: 10vh;
-  left: 24vw;
-  width: 1px;
-}
-
 .venue {
   padding: 0;
   margin: 0rem;
 }
 
 .topborders {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 /*****************************
