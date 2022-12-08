@@ -575,7 +575,8 @@ main {
 }
 .ri-award {
   font-size: 25px;
-  font-family: "Rubik";
+  font-family: "Rubik", "Alexandria";
+  font-style: italic;
   color: #723939;
   opacity: 0.5;
 }
