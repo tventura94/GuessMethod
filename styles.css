@@ -424,7 +424,7 @@ main {
 .fa-spotify {
   border: 0;
   background: none;
-  font-size: 50px;
+  font-size: 55px;
   transition: ease 200ms;
 }
 
@@ -435,7 +435,7 @@ main {
 .fa-instagram {
   border: 0;
   background: none;
-  font-size: 50px;
+  font-size: 55px;
 
   transition: ease 200ms;
 }
@@ -447,7 +447,7 @@ main {
 .fa-facebook-f {
   border: 0;
   background: none;
-  font-size: 50px;
+  font-size: 55px;
 
   transition: ease 200ms;
 }
@@ -458,7 +458,7 @@ main {
 .fa-itunes {
   border: 0;
   background: none;
-  font-size: 55px;
+  font-size: 60px;
   transition: ease 200ms;
 }
 
