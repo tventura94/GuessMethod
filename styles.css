@@ -79,7 +79,7 @@ nav {
   background-position: initial, left;
   background-blend-mode: overlay, screen;
   opacity: 0.98;
-  min-width: 100%;
+  max-width: 90vw;
   height: 90%;
   top: 0;
   right: 0;
