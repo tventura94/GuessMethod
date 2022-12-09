@@ -125,12 +125,12 @@ nav ul {
   color: #800a32;
   cursor: pointer;
   font-size: 2.5em;
-  transition: ease-in 180ms;
+  transition: ease-in 130ms;
 }
 
 .open-game:hover {
   opacity: 0.7;
-  transition: ease-in 170ms;
+  transition: ease-in 130ms;
 }
 
 .open-nav {
@@ -143,11 +143,11 @@ nav ul {
   color: #800a32;
   cursor: pointer;
   font-size: 2.8em;
-  transition: ease-in 180ms;
+  transition: ease-in 130ms;
 }
 .open-nav:hover {
   opacity: 0.5;
-  transition: ease-in 170ms;
+  transition: ease-in 130ms;
 }
 .close-nav {
   color: #7d7d7d;
