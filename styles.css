@@ -6,6 +6,7 @@
 REMEMBER FOR FUTURE PROJECTS. CLUTCH,*/
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
 }
 
 body {
@@ -558,7 +559,7 @@ main {
   text-align: center;
   align-items: center;
   flex-direction: row;
-  background-color: #bdc0c0;
+  background-color: #b7b9b9;
   opacity: 0.7;
   padding-bottom: 1.4rem;
   border-bottom: #800a32 1px solid;
@@ -577,7 +578,7 @@ main {
 }
 
 .ri-award span {
-  background-color: rgba(200, 50, 50, 0.518);
+  background-color: rgba(170, 42, 42, 0.518);
   border-radius: 13px;
   padding: 3px;
   box-shadow: -6px 22px 18px 1px rgba(5, 0, 0, 0.65);
