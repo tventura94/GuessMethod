@@ -179,11 +179,11 @@ nav ul {
 /********************************/
 
 .rotate {
-  animation: spin 650ms ease, fadeIn 500ms ease-in;
+  animation: spin 650ms ease, fadeIn 550ms ease-in;
 }
 
 .fadeIn {
-  animation: fadeIn 500ms ease-in;
+  animation: fadeIn 550ms ease-in;
 }
 
 @-moz-keyframes spin {
