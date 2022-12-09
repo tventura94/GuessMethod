@@ -385,7 +385,7 @@ main {
   }
 
   .imageGallery {
-    grid-column: 2 / 3;
+    grid-column: 1 / 4;
     object-fit: fill;
   }
   .section1-img {
@@ -490,15 +490,14 @@ main {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  border-bottom: #800a32 3px;
-  border-style: dotted;
+  border-bottom: 3px dotted #800a32;
 }
 
 .shows-header-box h1 {
   font-family: "Prompt";
   letter-spacing: 8px;
   text-decoration: underline;
-  font-size: 20px;
+  font-size: 30px;
 }
 .background-socials-dates {
   width: 100vw;
@@ -534,6 +533,7 @@ main {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  opacity: 1;
 }
 
 .venue {
@@ -550,17 +550,39 @@ main {
 ****** ACCOLADES **********/
 
 .accolades {
-  margin-top: 2rem;
+  margin-top: 1.4rem;
+  padding-top: 1rem;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
   align-items: center;
+  flex-direction: row;
+  background-color: #bdc0c0;
+  opacity: 0.7;
+  padding-bottom: 1.4rem;
+  border-bottom: #800a32 1px solid;
+  background-image: url(motif-logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 .ri-award {
-  font-size: 25px;
+  font-size: 30px;
   font-family: "Rubik", "Alexandria";
   font-style: italic;
-  color: #723939;
-  opacity: 0.5;
+  color: whitesmoke;
+  opacity: 1;
+  border-radius: 15px;
+}
+
+.ri-award span {
+  background-color: rgba(200, 50, 50, 0.518);
+  border-radius: 13px;
+  padding: 4.5px;
+  box-shadow: -6px 22px 18px 1px rgba(5, 0, 0, 0.65);
+  -webkit-box-shadow: -6px 22px 18px 1px rgba(5, 0, 0, 0.65);
+  -moz-box-shadow: -6px 22px 18px 1px rgba(5, 0, 0, 0.65);
+}
+.bio-paragraph {
 }
