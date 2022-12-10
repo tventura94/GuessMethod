@@ -3,7 +3,10 @@ const openButton = document.querySelector(".open-nav");
 const nav = document.querySelector(".nav");
 const ul = document.querySelector(".ul");
 const main = document.querySelector(".jsBody");
-//BUTTON FUNCTIONALITY
+
+///////////////////////////////////////////////////////////
+
+//Button Functionality
 openButton.addEventListener("click", () => {
   nav.classList.add("navigation-open");
   closeButton.classList.add("rotate");
@@ -25,12 +28,11 @@ main.addEventListener("click", () => {
 
 //Picture Slideshow Carousel
 
-var myIndex = 0;
+let myIndex = 0;
+
+let x = document.getElementsByClassName("mySlides");
 
 function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";
   }
@@ -43,3 +45,5 @@ function carousel() {
 }
 
 carousel();
+
+////////////////////////////////////////////
