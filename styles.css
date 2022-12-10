@@ -618,7 +618,6 @@ footer {
 .contact-form {
   display: flex;
   flex-direction: column;
-  border: solid 2px black;
   align-items: center;
 }
 
@@ -638,6 +637,5 @@ footer {
 .contact-form button {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  border: black 2px solid;
   width: 150px;
 }
