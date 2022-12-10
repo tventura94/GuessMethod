@@ -574,7 +574,7 @@ footer {
   background-image: url(motif-logo.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position-y: 58%;
 }
 .accolades p {
   display: flex;
@@ -601,5 +601,43 @@ footer {
   margin-bottom: -2.4rem;
   font-size: 21px;
 }
-.bio-paragraph {
+
+/******************************************
+((GET CONNECTED))
+******
+*****
+****
+**/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  border: solid 2px black;
+  align-items: center;
+}
+
+.contact-form input {
+  margin-top: 1rem;
+  border-radius: 15px;
+  border-style: none;
+  width: 17rem;
+}
+
+#message {
+  margin-top: 1rem;
+  border-radius: 10px;
+  width: 25rem;
+}
+
+.contact-form button {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: black 2px solid;
+  width: 150px;
 }
