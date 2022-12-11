@@ -131,12 +131,13 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     </main>
     <footer>
       <div class="contact-div">
-        <form class="contact-form" action="contactform.php" method="post">
+        <form class="contact-form" action="mail.php" method="POST">
       <h1>GET CONNECTED!</h1>
       <p>Want to see Guess Method perform in your city? Got a question about a song? Special request? Leave us a message below!</p>
       <input type ='text' name="name" id="name" placeholder="Your Name" required>
       <input type ='email' name="email" id="email" placeholder="Your email" required>
-      <textarea id="message" name ="subject"rows="4" placeholder="How can we help?"></textarea>
+      <input type ='text' name="subject" id="subject" placeholder="Subject" required>
+      <textarea id="message" name ="message"rows="4" placeholder="How can we help?"></textarea>
       <button type="submit" name="submit">Send</button>
     </form>
     </div>
