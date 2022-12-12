@@ -639,3 +639,7 @@ footer {
   margin-bottom: 2rem;
   width: 150px;
 }
+
+.botfield {
+  display: none;
+}
