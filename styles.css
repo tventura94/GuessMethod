@@ -611,12 +611,28 @@ footer {
   display: flex;
   flex-direction: column;
   text-align: center;
+  background: rgb(79, 58, 65);
+  background: radial-gradient(
+    circle,
+    rgba(79, 58, 65, 1) 26%,
+    rgba(196, 196, 196, 1) 100%
+  );
 }
 
 .contact-form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
+  background-image: linear-gradient(
+    191deg,
+    rgb(121, 66, 91) 2%,
+    rgb(73, 10, 31) 59%,
+    rgb(198, 32, 32) 81%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .contact-form input {
@@ -625,7 +641,17 @@ footer {
   border-style: none;
   width: 17rem;
 }
+.contact-form h1 {
+  font-family: "Prompt";
+  letter-spacing: 8px;
+  text-decoration: underline;
+  font-size: 30px;
+}
 
+.contact-form p {
+  color: whitesmoke;
+  font-weight: 500;
+}
 #message {
   margin-top: 1rem;
   border-radius: 10px;
@@ -636,6 +662,22 @@ footer {
   margin-top: 2rem;
   margin-bottom: 2rem;
   width: 150px;
+  border: #800a32 3px solid;
+  background-color: whitesmoke;
+  border-radius: 15px;
+}
+
+.contact-form button:hover {
+  color: gray;
+}
+
+.contact-form input {
+  text-align: center;
+  font-family: "Rubik";
+  font-weight: ;
+}
+.contact-form textarea {
+  text-align: center;
 }
 
 .botfield {
