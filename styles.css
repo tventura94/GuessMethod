@@ -668,6 +668,7 @@ footer {
   border: #800a32 3px solid;
   background-color: whitesmoke;
   border-radius: 15px;
+  font-family: "Alexandria";
 }
 
 .contact-form button:hover {
