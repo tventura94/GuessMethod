@@ -686,3 +686,19 @@ footer {
 .botfield {
   display: none;
 }
+
+.copyright-footer {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  align-items: flex-end;
+  height: 8vh;
+  background-color: #202020;
+  color: whitesmoke;
+  font-size: 10px;
+}
+
+.copyright-footer p {
+  opacity: 0.3;
+  margin-left: 1rem;
+}
