@@ -365,8 +365,6 @@ footer {
   width: 100%;
 }
 
-.mySlides {
-}
 .section1-img {
   display: flex;
   grid-column: 1 / 4;
