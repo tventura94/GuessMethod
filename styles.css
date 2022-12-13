@@ -99,6 +99,10 @@ nav {
   transform: translateX(-95%);
 }
 
+.nav a {
+  border-bottom: 1px black solid;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -300,6 +304,10 @@ nav ul {
     justify-content: center;
     align-items: center;
     height: 100%;
+  }
+
+  .nav a {
+    border-bottom: none;
   }
   header {
     display: flex;
