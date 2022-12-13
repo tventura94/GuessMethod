@@ -748,3 +748,12 @@ footer {
     margin-top: 0;
   }
 }
+
+#preloader {
+  background: #000 url() no-repeat center center;
+  background-size: 50%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
