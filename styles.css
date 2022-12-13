@@ -616,7 +616,7 @@ footer {
   background: rgb(79, 58, 65);
   background: radial-gradient(
     circle,
-    rgba(79, 58, 65, 1) 26%,
+    rgba(79, 58, 65, 1) 5%,
     rgba(196, 196, 196, 1) 100%
   );
 }
