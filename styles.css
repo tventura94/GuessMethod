@@ -589,8 +589,8 @@ footer {
   border-radius: 15px;
 }
 
-.ri-award span {
-  background-color: rgba(142, 36, 36, 0.518);
+.ri-award {
+  background-color: rgba(143, 68, 68, 0.518);
   border-radius: 13px;
   box-shadow: -6px 22px 18px 1px rgba(5, 0, 0, 0.65);
   -webkit-box-shadow: -6px 22px 18px 1px rgba(5, 0, 0, 0.65);
