@@ -58,7 +58,7 @@ const preLoader = window.addEventListener("load", function () {
   setTimeout(function () {
     loader.style.display = "none";
     ul.classList.add("fadeIn");
-    logo.classList.add("fadeIn");
+    logo.classList.add("fadeInLogo");
     openGame.classList.add("fadeIn");
     openButton.classList.add("fadeIn");
   }, 2000);
