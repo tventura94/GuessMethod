@@ -413,8 +413,8 @@ footer {
   justify-content: space-evenly;
   margin: 0 auto;
   width: 100vw;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 3.5rem;
+  margin-bottom: 3rem;
   background-image: linear-gradient(
     191deg,
     rgba(185, 165, 174, 1) 43%,
@@ -499,6 +499,7 @@ footer {
   -webkit-background-clip: text;
   color: transparent;
   border-bottom: 3px dotted #800a32;
+  margin-top: 1rem;
 }
 
 .shows-header-box h1 {
