@@ -89,6 +89,7 @@ nav {
   transition: transform 500ms;
   box-shadow: 0 0px 50px 1px rgb(127, 127, 127);
   border-radius: 30px;
+  border: silver 3px solid;
 }
 
 .nav-buttons {
