@@ -1,8 +1,10 @@
 const closeButton = document.querySelector(".close-nav");
 const openButton = document.querySelector(".open-nav");
+const openGame = document.querySelector(".open-game");
 const nav = document.querySelector(".nav");
 const ul = document.querySelector(".ul");
 const main = document.querySelector(".jsBody");
+const logo = document.querySelector(".logo");
 
 ///////////////////////////////////////////////////////////
 
@@ -54,4 +56,8 @@ let loader = document.getElementById("preloader");
 
 window.addEventListener("load", function () {
   loader.style.display = "none";
+  ul.classList.add("fadeIn");
+  logo.classList.add("fadeIn");
+  openGame.classList.add("fadeIn");
+  openButton.classList.add("fadeIn");
 });
