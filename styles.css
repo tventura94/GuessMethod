@@ -99,10 +99,6 @@ nav {
   transform: translateX(-95%);
 }
 
-.nav a {
-  border-bottom: 1px black solid;
-}
-
 nav ul {
   list-style: none;
   display: flex;
