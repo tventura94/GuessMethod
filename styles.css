@@ -807,21 +807,23 @@ footer {
   margin-right: 1rem;
 }
 
-@media (min-width: 800px) {
-  footer {
-    margin-top: 0;
-  }
-}
-
 #preloader {
   background: rgb(255, 255, 255) url(trippygif.gif) no-repeat center center;
-  background-size: 40%;
+  background-size: 60%;
   background-position: center;
   height: 100vh;
   width: 100%;
   position: fixed;
   z-index: 100;
   margin: 0 auto;
+}
+@media (min-width: 800px) {
+  footer {
+    margin-top: 0;
+  }
+  #preloader {
+    background-size: 40%;
+  }
 }
 
 @keyframes fadeOut {
