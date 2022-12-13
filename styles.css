@@ -681,7 +681,7 @@ footer {
 
 .contact-form input {
   text-align: center;
-  font-family: "Rubik";
+  font-family: "Rubik", "Alexandria", "Prompt";
   font-weight: ;
 }
 .contact-form textarea {
