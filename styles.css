@@ -192,6 +192,10 @@ nav ul {
   animation: fadeIn 500ms ease-in;
 }
 
+.fadeInLogo {
+  animation: fadeInLogo 500ms ease-in;
+}
+
 @-moz-keyframes spin {
   100% {
     -moz-transform: rotate(-360deg);
@@ -273,6 +277,69 @@ nav ul {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeInLogo {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.3;
+  }
+  60% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+
+@-webkit-keyframes fadeInLogo {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.3;
+  }
+  60% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes fadeInLogo {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.3;
+  }
+  60% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0.8;
   }
 }
 /*************************
