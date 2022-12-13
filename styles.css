@@ -95,6 +95,7 @@ nav {
 .nav-buttons {
   display: flex;
 }
+
 .navigation-open {
   transform: translateX(-95%);
 }
