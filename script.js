@@ -64,6 +64,6 @@ const preLoader = window.addEventListener("load", function () {
 
     setTimeout(function () {
       loader.style.display = "none";
-    }, 1500);
-  }, 1500);
+    }, 2000);
+  }, 2000);
 });

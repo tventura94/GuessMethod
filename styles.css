@@ -822,7 +822,7 @@ footer {
     margin-top: 0;
   }
   #preloader {
-    background-size: 40%;
+    display: none;
   }
 }
 
