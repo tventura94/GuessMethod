@@ -609,7 +609,6 @@ footer {
 **/
 
 footer {
-  margin-top: 1.5rem;
   display: flex;
   flex-direction: column;
   text-align: center;
