@@ -56,10 +56,14 @@ let loader = document.getElementById("preloader");
 
 const preLoader = window.addEventListener("load", function () {
   setTimeout(function () {
-    loader.style.display = "none";
+    loader.style.animation = "fadeOut 2s linear";
     ul.classList.add("fadeIn");
     logo.classList.add("fadeInLogo");
     openGame.classList.add("fadeIn");
     openButton.classList.add("fadeIn");
+
+    setTimeout(function () {
+      loader.style.display = "none";
+    }, 2000);
   }, 2000);
 });
