@@ -5,6 +5,10 @@ const nav = document.querySelector(".nav");
 const ul = document.querySelector(".ul");
 const main = document.querySelector(".jsBody");
 const logo = document.querySelector(".logo");
+const upcomingShows = document.querySelector(".upcoming-shows");
+const showsButton = document.getElementById("link-item4");
+const contactButton = document.getElementById("link-item2");
+const booking = document.querySelector(".contact-div");
 
 ///////////////////////////////////////////////////////////
 
@@ -26,6 +30,23 @@ main.addEventListener("click", () => {
   closeButton.classList.remove("rotate");
   ul.classList.remove("fadeIn");
 });
+
+showsButton.addEventListener("click", (event) => {
+  event.preventDefault();
+  nav.classList.remove("navigation-open");
+  closeButton.classList.remove("rotate");
+  ul.classList.remove("fadeIn");
+  upcomingShows.scrollIntoView();
+});
+
+contactButton.addEventListener("click", (event) => {
+  event.preventDefault();
+  nav.classList.remove("navigation-open");
+  closeButton.classList.remove("rotate");
+  ul.classList.remove("fadeIn");
+  booking.scrollIntoView();
+});
+
 ///////////////////////////////////////////////
 
 //Picture Slideshow Carousel
@@ -67,3 +88,5 @@ const preLoader = window.addEventListener("load", function () {
     }, 2000);
   }, 2000);
 });
+
+////////////////////////
