@@ -36,7 +36,9 @@ showsButton.addEventListener("click", (event) => {
   nav.classList.remove("navigation-open");
   closeButton.classList.remove("rotate");
   ul.classList.remove("fadeIn");
-  upcomingShows.scrollIntoView();
+  upcomingShows.scrollIntoView({
+    behavior: "smooth",
+  });
 });
 
 contactButton.addEventListener("click", (event) => {
@@ -44,7 +46,9 @@ contactButton.addEventListener("click", (event) => {
   nav.classList.remove("navigation-open");
   closeButton.classList.remove("rotate");
   ul.classList.remove("fadeIn");
-  booking.scrollIntoView();
+  booking.scrollIntoView({
+    behavior: "smooth",
+  });
 });
 
 ///////////////////////////////////////////////
