@@ -566,10 +566,10 @@ footer {
   color: rgba(128, 10, 50, 1);
   margin: 0 auto;
   font-family: "Rubik", "Alexandria";
+  line-height: 1.8rem;
+
 }
-#seated-55fdf2c0 > a:hover {
-  color:#800a32;
-}
+
 .upcoming-shows {
   margin: 0 auto;
   margin-top: 1rem;
@@ -709,6 +709,29 @@ footer {
     opacity: 1;
     background-color: rgba(126, 37, 37, 0.911);
   }
+
+  
+  .upcoming-shows {
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+  }
+
+  #seated-55fdf2c0 {
+    color: rgba(128, 10, 50, 1);
+    justify-content: space-between;
+    font-family: "Rubik", "Alexandria";
+    width: 80vw;
+    line-height: 2rem;
+  }
+
 }
 
 /******************************************
