@@ -562,7 +562,14 @@ footer {
 }
 
 /******UPCOMING SHOWS***************/
-
+#seated-55fdf2c0 {
+  color: rgba(128, 10, 50, 1);
+  margin: 0 auto;
+  font-family: "Rubik", "Alexandria";
+}
+#seated-55fdf2c0 > a:hover {
+  color:#800a32;
+}
 .upcoming-shows {
   margin: 0 auto;
   margin-top: 1rem;
