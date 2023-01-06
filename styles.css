@@ -567,9 +567,17 @@ footer {
   margin: 0 auto;
   font-family: "Rubik", "Alexandria";
   line-height: 1.8rem;
+  text-align: center;
 
 }
 
+
+  #seated-55fdf2c0 p  {
+    border:#800a32 2px solid;
+  }
+#seated-55fdf2c0 a:hover {
+  background-color:#800a32;
+}
 .upcoming-shows {
   margin: 0 auto;
   margin-top: 1rem;
