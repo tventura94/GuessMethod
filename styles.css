@@ -572,6 +572,7 @@ footer {
 }
 #seated-55fdf2c0 a {
   font-family: "Rubik";
+  border-color: #800a32;
 
 
 }
@@ -579,6 +580,8 @@ footer {
 
 #seated-55fdf2c0 a:hover {
   background-color:#800a32;
+  color: white;
+  border-color: white;
 }
 .upcoming-shows {
   margin: 0 auto;
