@@ -809,11 +809,11 @@ footer {
   margin-top: 2rem;
   margin-bottom: 2rem;
   width: 150px;
-  border: #800a32 3px solid;
+  border: #800a32 2px solid;
   background-color: whitesmoke;
   border-radius: 15px;
   font-family: "Alexandria";
-  color: black;
+  color: rgb(57, 57, 57);
 }
 
 .contact-form button:hover {
