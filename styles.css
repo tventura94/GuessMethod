@@ -700,6 +700,10 @@ footer {
   -webkit-box-shadow: -6px 22px 18px 1px rgba(5, 0, 0, 0.65);
   -moz-box-shadow: -6px 22px 18px 1px rgba(5, 0, 0, 0.65);
 }
+
+.ri-award img {
+  display: none;
+}
 .winner {
   margin-bottom: -2.4rem;
   font-size: 21px;
@@ -707,16 +711,33 @@ footer {
 
 @media (min-width: 800px) {
   .accolades {
-    background-repeat: repeat;
-    background-color: #76797e;
-    background-size: contain;
+    
+  background: whitesmoke;
+  background-image: url("fluid.gif"), url("neon.gif");
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+  background-position: initial, left;
+  background-blend-mode: overlay, screen;
+  opacity: 0.98;
   }
   .ri-award {
     color: rgb(250, 246, 245);
     font-size: 30px;
     opacity: 1;
-    background-color: rgba(126, 37, 37, 0.911);
+    background-color: rgba(120, 21, 47, 0.833);
+    width: 50%;
+    border: silver solid 2px;
   }
+  
+.ri-award img {
+  display: initial;
+  width: 10vw;
+  align-self: center;
+}
+
+.winner {
+  text-decoration: underline;
+}
 
   
   .upcoming-shows {
