@@ -570,11 +570,13 @@ footer {
   text-align: center;
 
 }
+#seated-55fdf2c0 a {
+  font-family: "Rubik";
 
 
-  #seated-55fdf2c0 p  {
-    border:#800a32 2px solid;
-  }
+}
+
+
 #seated-55fdf2c0 a:hover {
   background-color:#800a32;
 }
