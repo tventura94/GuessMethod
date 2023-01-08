@@ -55,7 +55,7 @@ contactButton.addEventListener("click", (event) => {
 
 //Picture Slideshow Carousel
 
-let myIndex = 0;
+let myIndex = -1;
 const slides = document.getElementsByClassName("mySlides");
 
 function carousel() {
