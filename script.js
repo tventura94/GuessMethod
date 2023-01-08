@@ -56,18 +56,14 @@ contactButton.addEventListener("click", (event) => {
 //Picture Slideshow Carousel
 
 let myIndex = 0;
-
-let x = document.getElementsByClassName("mySlides");
+const slides = document.getElementsByClassName("mySlides");
 
 function carousel() {
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
+  for (const slide of slides) {
+    slide.style.display = "none";
   }
-  myIndex++;
-  if (myIndex > x.length) {
-    myIndex = 1;
-  }
-  x[myIndex - 1].style.display = "block";
+  myIndex = (myIndex + 1) % slides.length;
+  slides[myIndex].style.display = "block";
   setTimeout(carousel, 7000);
 }
 
