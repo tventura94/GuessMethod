@@ -116,6 +116,20 @@ nav ul {
   border-bottom: #b75f7c 5px;
   opacity: 0.8;
 }
+.gameArea {
+  position: relative;
+  display: none;
+}
+
+.gameAreaOpen {
+  position: relative;
+  display: initial;
+}
+
+.iframe {
+  display: flex;
+  height: 25em;
+}
 
 .open-game {
   font-family: "FontAwesome";
@@ -425,6 +439,9 @@ nav ul {
 /************************************************
 ***************** G R I D **********************
 ***********************************************/
+.hidden {
+  display: none;
+}
 
 main {
   display: grid;
@@ -568,19 +585,15 @@ footer {
   font-family: "Rubik", "Alexandria";
   line-height: 1.8rem;
   text-align: center;
-
 }
 #seated-55fdf2c0 a {
   font-family: "Rubik", "Alexandria";
   font-style: italic;
   border-color: #800a32;
-
-
 }
 
-
 #seated-55fdf2c0 a:hover {
-  background-color:#800a32;
+  background-color: #800a32;
   color: white;
   border-color: white;
 }
@@ -669,8 +682,7 @@ footer {
 ****** ACCOLADES **********/
 
 .accolades {
-  margin-top: 1.4rem;
-  padding-top: 1rem;
+  padding-top: 1.4rem;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -715,16 +727,32 @@ footer {
   font-size: 21px;
 }
 
+.presave {
+  width: 100%;
+  height: 170px;
+  margin-bottom: -6px;
+  border-bottom: solid 1px #800a32;
+}
+
 @media (min-width: 800px) {
   .accolades {
-    
-  background: whitesmoke;
-  background-image: url("fluid.gif"), url("neon.gif");
-  background-repeat: no-repeat, no-repeat;
-  background-size: cover, cover;
-  background-position: initial, left;
-  background-blend-mode: overlay, screen;
-  opacity: 0.98;
+    background: whitesmoke;
+    background-image: url("fluid.gif"), url("neon.gif");
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+    background-position: initial, left;
+    background-blend-mode: overlay, screen;
+    opacity: 0.98;
+  }
+  .winner {
+    margin-bottom: 0px;
+    font-size: 21px;
+  }
+  .presave {
+    width: 100%;
+    height: 170px;
+    margin-bottom: 0px;
+    border-bottom: none;
   }
   .ri-award {
     color: rgb(250, 246, 245);
@@ -734,18 +762,17 @@ footer {
     width: 50%;
     border: silver solid 2px;
   }
-  
-.ri-award img {
-  display: initial;
-  width: 10vw;
-  align-self: center;
-}
 
-.winner {
-  text-decoration: underline;
-}
+  .ri-award img {
+    display: initial;
+    width: 10vw;
+    align-self: center;
+  }
 
-  
+  .winner {
+    text-decoration: underline;
+  }
+
   .upcoming-shows {
     margin: 0 auto;
     margin-top: 1rem;
@@ -766,7 +793,6 @@ footer {
     width: 80vw;
     line-height: 2rem;
   }
-
 }
 
 /******************************************

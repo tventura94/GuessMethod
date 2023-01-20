@@ -1,6 +1,6 @@
 const closeButton = document.querySelector(".close-nav");
 const openButton = document.querySelector(".open-nav");
-const openGame = document.querySelector(".open-game");
+// const openGame = document.querySelector(".open-game");
 const nav = document.querySelector(".nav");
 const ul = document.querySelector(".ul");
 const main = document.querySelector(".jsBody");
@@ -9,6 +9,9 @@ const upcomingShows = document.querySelector(".upcoming-shows");
 const showsButton = document.getElementById("link-item4");
 const contactButton = document.getElementById("link-item2");
 const booking = document.querySelector(".contact-div");
+// const game = document.querySelector(".gameArea");
+const imgSlideShow = document.querySelector(".imageGallery");
+const hidden = document.querySelector(".hidden");
 
 ///////////////////////////////////////////////////////////
 
@@ -18,6 +21,16 @@ openButton.addEventListener("click", () => {
   closeButton.classList.add("rotate");
   ul.classList.add("fadeIn");
 });
+
+// openGame.addEventListener("click", () => {
+//   if (game.classList.contains("gameAreaOpen")) {
+//     game.classList.remove("gameAreaOpen");
+//     imgSlideShow.classList.remove("hidden");
+//   } else {
+//     game.classList.add("gameAreaOpen");
+//     imgSlideShow.classList.add("hidden");
+//   }
+// });
 
 closeButton.addEventListener("click", () => {
   nav.classList.remove("navigation-open");
@@ -80,7 +93,7 @@ const preLoader = window.addEventListener("load", function () {
     loader.style.animation = "fadeOut 1.4s linear";
     ul.classList.add("fadeIn");
     logo.classList.add("fadeInLogo");
-    openGame.classList.add("fadeIn");
+    //openGame.classList.add("fadeIn");
     openButton.classList.add("fadeIn");
 
     setTimeout(function () {
