@@ -380,8 +380,8 @@ nav ul {
     box-shadow: none;
     border: none;
     justify-content: center;
-    align-items: center;
     height: 100%;
+    margin-top: 1.1rem;
   }
 
   .nav a {
@@ -414,6 +414,9 @@ nav ul {
   .logo {
     width: 160px;
     margin-left: 1rem;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
   a {
@@ -424,12 +427,6 @@ nav ul {
   .open-game {
     display: none;
   }
-
-  .nav-buttons {
-    justify-content: center;
-    align-items: center;
-  }
-
   .nav li {
     margin: 0 auto;
     margin-top: 0.5rem;
