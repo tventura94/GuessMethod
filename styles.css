@@ -371,8 +371,11 @@ nav ul {
   nav ul {
     flex-direction: row;
     align-items: center;
-    margin-top: 1rem;
+    text-align: center;
+    justify-content: center;
+    margin-top: 0.9rem;
     width: 90%;
+    padding-bottom: 0.3rem;
   }
   .nav {
     position: initial;
@@ -381,7 +384,7 @@ nav ul {
     border: none;
     justify-content: center;
     height: 100%;
-    margin-top: 1.1rem;
+    margin-top: 0.75rem;
   }
 
   .nav a {
@@ -415,8 +418,8 @@ nav ul {
     width: 160px;
     margin-left: 1rem;
 
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
   }
 
   a {
