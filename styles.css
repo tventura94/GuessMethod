@@ -499,11 +499,13 @@ footer {
   .imageGallery {
     grid-column: 1 / 4;
     object-fit: cover;
-    height: 90vh;
+    height: 72vh;
   }
+
   .section1-img {
-    height: 90vh;
+    height: 72vh;
     object-fit: cover;
+    object-position: 50% 35%;
   }
 }
 /******** SOCIAL ICON BAR ***********
