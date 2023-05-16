@@ -499,11 +499,11 @@ footer {
   .imageGallery {
     grid-column: 1 / 4;
     object-fit: cover;
-    height: 65vh;
+    height: 67vh;
   }
 
   .section1-img {
-    height: 65vh;
+    height: 67vh;
     object-fit: cover;
     object-position: 50% 35%;
   }
