@@ -902,6 +902,9 @@ footer {
   color: whitesmoke;
   font-size: 10px;
 }
+.copyright-footer a {
+  font-size: 10px;
+}
 
 .copyright-footer p {
   opacity: 0.3;
