@@ -580,6 +580,17 @@ footer {
   color: #800a32;
 }
 
+.fa-youtube {
+  border: 0;
+  background: none;
+  font-size: 55px;
+
+  transition: ease 200ms;
+}
+.fa-youtube:hover {
+  color: #800a32;
+}
+
 /******UPCOMING SHOWS***************/
 #seated-55fdf2c0 {
   color: rgba(128, 10, 50, 1);
